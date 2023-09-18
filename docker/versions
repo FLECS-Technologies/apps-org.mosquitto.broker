@@ -1,0 +1,5 @@
+2.0.14-openssl:linux/amd64,linux/arm/v7,linux/arm64
+2.0.15-openssl:linux/amd64,linux/arm/v7,linux/arm64
+2.0.16-openssl:linux/amd64,linux/arm/v7,linux/arm64
+2.0.17-openssl:linux/amd64,linux/arm/v7,linux/arm64
+2.0.18-openssl:linux/amd64,linux/arm/v7,linux/arm64

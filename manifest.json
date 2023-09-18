@@ -1,0 +1,30 @@
+{
+    "app": "org.mosquitto.broker",
+    "version": "##VERSION##",
+    "revision": "##FLECS_VERSION##",
+    "title": "Mosquitto MQTT broker",
+    "author": "info@flecs.tech",
+    "image": "flecs.azurecr.io/org.mosquitto.broker",
+    "description": "Eclipse Mosquitto is an open source message broker which implements MQTT version 5, 3.1.1 and 3.1",
+    "avatar": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-eclipse-mosquitto-logo.png",
+    "category": "communication",
+    "multiInstance": false,
+    "editor": "",
+    "args": [],
+    "capabilities": [],
+    "conffiles": [
+        "mosquitto.conf:/mosquitto/config/mosquitto.conf:init"
+    ],
+    "devices": [],
+    "env": [],
+    "interactive": false,
+    "ports": [
+        "1883:1883",
+        "9001:9001"
+    ],
+    "startupOptions": [],
+    "volumes": [
+        "data:/mosquitto/data/",
+        "log:/mosquitto/log/"
+    ]
+}
