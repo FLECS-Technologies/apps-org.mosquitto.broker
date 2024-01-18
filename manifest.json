@@ -1,4 +1,5 @@
 {
+    "_schemaVersion": "2.0.0",
     "app": "org.mosquitto.broker",
     "version": "##VERSION##",
     "revision": "##FLECS_VERSION##",
